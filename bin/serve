@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var serve = require('../lib/serve.js');
+var argv = require('optimist')
+	.usage("Usage: $0 [path] [--port port]")
+	.default({
+		port: 8001,
+	})
+	.argv;
+
+serve(argv._[0] || process.cwd(), argv);

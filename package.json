@@ -1,0 +1,28 @@
+{
+	"name" : "static-server",
+	"version" : "0.1.0",
+	"description" : "Simple static stuff server",
+	"author": "Tim Heap <heap.tim@gmail.com>",
+	"contributors": [],
+
+	"main": "./lib/server.js",
+
+	"bin": {
+		"serve": "./bin/serve"
+	},
+
+	"licenses": [ { "type": "Public domain" } ],
+
+	"dependencies":{
+		"connect": "1.7.1",
+		"optimist": "0.2.6"
+	},
+
+	"bugs": {
+		"web": "http://github.com/maelstrom/static-server/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url":  "http://github.com/maelstrom/static-server.git"
+	}
+}
