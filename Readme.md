@@ -9,7 +9,7 @@ Then this file server will make your life that little bit easier.
 
 To install the simple static stuff server, use npm:
 
-	npm install -g simple-server
+	npm install -g static-server
 
 Then to serve a file or a directory, simply run
 
