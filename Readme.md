@@ -1,6 +1,10 @@
 Simple static stuff server
 ==========================
 
+**NOTE: This project is no longer maintained. It was created against a very old version of
+Node. It no longer functions. This repository is kept for historical reasons, but no one
+should actually use it.**
+
 Ever needed to send a colleague a file, but can't be bothered emailing the 100MB beast?
 Wanted to run a simple example JavaScript application, but had problems with running it
 through the file:/// protocol? Wanted to share your media directory at a LAN without
